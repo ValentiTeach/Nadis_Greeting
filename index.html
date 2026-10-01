@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>З Днем народження, Надіє!</title>
+  <meta name="description" content="Маленька книжка побажань до Дня народження.">
+  <meta name="theme-color" content="#1b1940">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true">
+    <span class="blob blob--a"></span>
+    <span class="blob blob--b"></span>
+    <span class="blob blob--c"></span>
+    <div class="sparkles"></div>
+  </div>
+
+  <main class="stage">
+    <div class="book" id="book" data-state="0" aria-live="polite">
+      <div class="spread" id="spread">
+
+        <!-- Аркуш 1: обкладинка / фото з Владом -->
+        <section class="leaf" data-leaf="0">
+          <article class="face face--front cover">
+            <div class="cover__frame">
+              <p class="cover__kicker">маленька книжка побажань</p>
+              <div class="cover__rule"></div>
+              <h1 class="cover__title">
+                <span>З Днем</span>
+                <span>народження,</span>
+                <em>Надіє</em>
+              </h1>
+              <div class="cover__rule"></div>
+              <svg class="cover__mark" viewBox="0 0 48 48" aria-hidden="true">
+                <path d="M24 6v8M24 34v8M6 24h8M34 24h8M11.3 11.3l5.6 5.6M31.1 31.1l5.6 5.6M11.3 36.7l5.6-5.6M31.1 16.9l5.6-5.6" />
+                <circle cx="24" cy="24" r="5" />
+              </svg>
+              <p class="cover__hint"><span class="hint-desktop">натисніть, щоб відкрити</span><span class="hint-touch">торкніться, щоб відкрити</span></p>
+            </div>
+          </article>
+          <figure class="face face--back photo-page">
+            <div class="photo-page__img"><img src="assets/mother-and-vlad.jpg" alt="Надія разом із Владом на святі" loading="eager"></div>
+            <figcaption>Поруч із найважливішим</figcaption>
+            <span class="folio">1</span>
+          </figure>
+        </section>
+
+        <!-- Аркуш 2: формальне привітання / фото на прогулянці -->
+        <section class="leaf" data-leaf="1">
+          <article class="face face--front text-page">
+            <p class="label">офіційно</p>
+            <h2>Шановна Надіє!</h2>
+            <div class="text-page__body">
+              <p>Від щирого серця вітаю Вас із Днем народження!</p>
+              <p>Дякую за довіру, відкритість і злагоджену співпрацю. Ваша любов, витримка та віра у Влада щодня надихають і показують, якою сильною може бути материнська підтримка.</p>
+              <p>Бажаю професійних звершень у сфері SMM: сміливих ідей, вдячних клієнтів, проєктів, якими хочеться пишатися, і впевненого кар’єрного зростання.</p>
+              <p>Нехай у Вашій родині панують мир, злагода та взаєморозуміння, а кожен новий рік приносить здоров’я і гармонію.</p>
+            </div>
+            <p class="sign">З повагою —<br>асистент Влада</p>
+            <span class="folio">2</span>
+          </article>
+          <figure class="face face--back photo-page">
+            <div class="photo-page__img"><img src="assets/walking.jpg" alt="Надія на літній прогулянці з кошиком квітів" loading="lazy"></div>
+            <figcaption>Час для себе — теж важливий</figcaption>
+            <span class="folio">3</span>
+          </figure>
+        </section>
+
+        <!-- Аркуш 3: неформальне привітання / сімейне фото -->
+        <section class="leaf" data-leaf="2">
+          <article class="face face--front text-page text-page--soft">
+            <p class="label">від душі</p>
+            <h2>Надю, з днем народження!</h2>
+            <div class="text-page__body">
+              <p>Сьогодні Ваш день — тож хай він буде легким, теплим і по-справжньому Вашим.</p>
+              <p>Хай контент завжди залітає в рекомендації, охоплення ростуть, сторіз дивляться до кінця, а натхнення приходить раніше за дедлайни.</p>
+              <p>Хай удома завжди буде затишно й весело, діти радують щодня, а кожен вечір закінчується усмішками.</p>
+              <p>І більше кави, сонця, спокійних ранків та моментів «просто для себе»!</p>
+            </div>
+            <svg class="flourish" viewBox="0 0 120 16" aria-hidden="true"><path d="M2 8c18-10 30 10 48 0s30-10 48 0 18 4 20 0" /></svg>
+            <span class="folio">4</span>
+          </article>
+          <figure class="face face--back photo-page">
+            <div class="photo-page__img"><img src="assets/family.jpg" alt="Сімейне фото: Надія з чоловіком і синами" loading="lazy"></div>
+            <figcaption>Сім’я — головна команда</figcaption>
+            <span class="folio">5</span>
+          </figure>
+        </section>
+
+        <!-- Аркуш 4: побажання / задня обкладинка -->
+        <section class="leaf" data-leaf="3">
+          <article class="face face--front text-page wishes">
+            <p class="label">бажаю</p>
+            <h2>Нехай цей рік буде…</h2>
+            <ul class="wishes__list">
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8M15 7h6v6" /></svg>
+                <div><b>Успішним у професії</b><span>яскраві кампанії, креативні ідеї та клієнти, які цінують Вашу роботу SMM-спеціаліста</span></div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7M5 10v10h14V10M10 20v-6h4v6" /></svg>
+                <div><b>Теплим для родини</b><span>розвитку, затишку й нових спільних традицій</span></div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" /></svg>
+                <div><b>Сильним у стосунках</b><span>злагоди, підтримки й людей поруч, на яких можна покластися</span></div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" /></svg>
+                <div><b>Сповненим гарного настрою</b><span>щодня, без вихідних і без фільтрів</span></div>
+              </li>
+            </ul>
+            <p class="wishes__outro">А ще — здоров’я, сил і спокою на все задумане.</p>
+            <span class="folio">6</span>
+          </article>
+          <article class="face face--back cover cover--back">
+            <div class="cover__frame">
+              <svg class="cover__mark" viewBox="0 0 48 48" aria-hidden="true">
+                <path d="M24 39s-13-8-13-18a7 7 0 0 1 13-4.6A7 7 0 0 1 37 21c0 10-13 18-13 18z" />
+              </svg>
+              <p class="cover__thanks">З теплом і вдячністю</p>
+              <div class="cover__rule"></div>
+              <p class="cover__from">асистент Влада</p>
+              <button class="restart" type="button" id="restart">Гортати знову</button>
+            </div>
+          </article>
+        </section>
+
+      </div>
+    </div>
+
+    <nav class="controls" aria-label="Навігація книжкою">
+      <button class="nav-btn" id="prev" type="button" aria-label="Попередня сторінка">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg>
+      </button>
+      <div class="dots" id="dots" aria-hidden="true"></div>
+      <button class="nav-btn" id="next" type="button" aria-label="Наступна сторінка">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" /></svg>
+      </button>
+    </nav>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
